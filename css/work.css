@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Narrow");
+  src: local("PTSans-Narrow");
+  src: url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v4/UyYrYy3ltEffJV9QueSi4Z4t0mJKPaLVqklzZuc32b4.woff) format("woff"); }
+
+body {
+  width: 800px;
+  margin: 50px auto;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #333;
+  position: relative;
+  font-size: 1.1em; }
+
+h1 {
+  border-bottom: 1px dotted #333333;
+  font-size: 5em; }
+
+h2 {
+  margin-bottom: 5px; }
+
+p {
+  margin-bottom: 10px; }
+
+section {
+  padding-top: 30px; }
+
+.postit {
+  font-size: 0.9em;
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  padding: 30px;
+  top: -60px;
+  right: 10px;
+  z-index: 10000;
+  color: #fff;
+  background-color: #16b2a3;
+  -webkit-box-shadow: 0px 3px 8px #999999; }
+
+a {
+  color: #33a7ce; }
+
+a:visited {
+  color: #3f83a9; }
+
+.postit a {
+  color: #fff;
+  text-decoration: underline; }
+
+img {
+  border: 1px dotted #333333;
+  padding: 5px; }
+
+h4 {
+  margin-bottom: 3px; }
+
+ul {
+  margin-left: 0px;
+  list-style-type: none; }
+  ul li {
+    float: left;
+    margin: 0px 10px 0px 0px; }
